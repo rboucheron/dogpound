@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.text-poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+.text-Alata{
+    font-family: 'Alata', sans-serif !important;
+}
+
+.bg-blue {
+    background-color: #2B2D42 !important;
+}
+
+.border-blue {
+    border-color: #2B2D42 !important;
+}
+
+.color-blue {
+    color: #2B2D42 !important;
+}
+.dashed-b{
+    border-bottom: dashed 1px ;
+}
+
+.bg-sky {
+    background-color: #A8DADC !important;
+}
+
+.border-sky {
+    border-color: #A8DADC !important;
+}
+
+.color-sky {
+    color: #A8DADC !important;
+}
+
+.bg-blue-sky {
+    color: #8D99AE !important;
+}
+
+.color-blue-sky {
+    color: #8D99AE !important;
+}
+
+.border-blue-sky {
+    border-color: #8D99AE;
+}
+
+.bg-mauve {
+    background-color: #EDF2F4 !important;
+}
+
+.border-mauve {
+    border-color: #EDF2F4 !important;
+}
+
+.color-mauve {
+    color: #EDF2F4 !important;
+}
+
+.bg-accent {
+    background-color: #E63946 !important;
+}
+
+.border-accent {
+    border-color: #E63946 !important;
+}
+
+.color-accent {
+    color: #E63946 !important;
+}
