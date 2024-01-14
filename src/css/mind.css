@@ -48,6 +48,10 @@
     border-color: #8D99AE;
 }
 
+.cover{
+    object-fit: cover!important;
+}
+
 .bg-mauve {
     background-color: #EDF2F4 !important;
 }
@@ -74,10 +78,10 @@
 .reserve{
     position: absolute;
     color: rgb(198, 198, 26) ;
-    top: 25px;
+    top: 100px;
     left: 50px;
     text-shadow: 5px 5px 5px  #2b2d423a;
-    font-size: 6rem;
+    font-size: 2.5rem;
     transform: rotate(25deg);
 }
 .day{
