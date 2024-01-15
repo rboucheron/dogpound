@@ -77,12 +77,18 @@
 }
 .reserve{
     position: absolute;
-    color: rgb(198, 198, 26) ;
-    top: 100px;
-    left: 50px;
+    color: #EDF2F4; 
+    border: 1px solid #EDF2F4;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    width: 100px;
+    padding: 12px ;
+    top: 10px;
+    right: 10px;
     text-shadow: 5px 5px 5px  #2b2d423a;
-    font-size: 2.5rem;
-    transform: rotate(25deg);
+    font-size: 0.7rem;
+
 }
 .day{
     position: absolute;
@@ -91,4 +97,43 @@
     right: 5px;
     top: 230px;
     font-size: 1.2rem;
+}
+.custom-link {
+    font-size: 1.5rem; /* Définir la taille de la police souhaitée */
+
+}
+.nav-item{
+    margin-left: 3%;
+}
+.navbar-nav{
+    width: 100%;
+}
+.navbar img{
+    width: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.m-5x2{
+    margin: 6rem !important;
+}
+.m-5x3{
+    margin: 15rem !important;
+}
+.mt-5x2{
+    margin-top: 6rem !important;
+}
+.mb-5x2{
+    margin-bottom: 6rem !important;
+
+}
+.mb-5x3{
+    margin-bottom: 15rem !important;
+
+}
+.mt-5x3{
+    margin-top: 15rem !important;
+}
+.dimension{
+    width: 100%;
+    height: 79%;
 }
