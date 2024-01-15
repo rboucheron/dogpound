@@ -7,6 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="./assets/thedogslogo.svg" />
   <title>Chiots Finnois de Laponie - la portée de Sally</title>
   <meta name="description" content="Découvrez nos chiots Finnois de Laponie. Consultez des informations sur notre portée récente et notre passion pour les chiens. Contactez-nous pour adopter un adorable compagnon.">
   <meta name="keywords" content="chiots Finnois de Laponie, chiots, élevage familial, chien, chien reproducteur, adoption chiots, compagnon, 4 pates, race nordique, Sally, portée récente, adoption chiots 2024, éleveur responsable">
@@ -22,7 +23,7 @@
 <body class="bg-mauve">
   <header class="border border-bottom-1 border-blue-sky custom-sticky bg-mauve z-3 top-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <img src="./assets/thedogslogo.svg" alt="Sally allaitant ses chiots">
+      <img src="./assets/thedogslogo.svg" alt="Logo du site web : un chien finnois de Laponie accompagné de la mention Les petits de Sally">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -51,23 +52,7 @@
     </nav>
 
   </header>
-  <?php if (isset($message)) { ?>
 
-    <div class="modal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Votre Mail</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p><?= $message ?></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  <?php } ?>
   <section class="container mt-5x2 mb-5x2 mb-5x3 mb-2" id="Accueil">
     <div class="row">
       <div class="col-md-5">
