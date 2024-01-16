@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,9 +16,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./src/css/mind.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
 </head>
-
 <body class="bg-mauve">
   <header class="border border-bottom-1 border-blue-sky custom-sticky bg-mauve z-3 top-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -50,10 +47,8 @@
         </ul>
       </div>
     </nav>
-
   </header>
   <div id="modal"></div>
-
   <section class="container mt-5x2 mb-5x2 mb-5x3 mb-2" id="Accueil">
     <div class="row">
       <div class="col-md-5">
@@ -88,7 +83,6 @@
         <img src="./assets/Sally.png" alt="Sally, femelle reproductrice de la race Finnois de Laponie, est la mère de cette portée" class="cover dimension">
       </div>
     </div>
-
   </section>
   <div class="container-fluid mt-5x2" id="Portee">
     <h2 class="w-100 text-center color-blue-sky display-4 text-Alata mb-5">Notre portée
@@ -154,7 +148,6 @@
           carresses. Nos chiots seront prêts à rejoindre leur nouveau foyer dès mi-mars 2024, à partir de cette date,
           vous pourrez accueillir chez vous l'un de ces adorables compagnons.</p>
       </div>
-
       <div class="col-sm-7">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20981.981020052983!2d2.7916749790780435!3d48.90114666560703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d8e1ca49d35%3A0x40b82c3688c5b80!2sEsbly!5e0!3m2!1sfr!2sfr!4v1705326078985!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
@@ -193,7 +186,6 @@
       <div class="row mt-5">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
-
           <form action="" method="post" id="contact-form">
             <input type="hidden" name="contact_number">
             <div class="mb-3">
@@ -208,28 +200,23 @@
               <label for="exampleInputEmail1" class="form-label">Votre message</label>
               <textarea class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="message" required="required"></textarea>
             </div>
-            <button type="submit" value="Send" class="btn bg-blue color-mauve">Envoyer</button>
+            <button type="submit" value="Send" class="btn bg-blue color-mauve" >Envoyer</button>
           </form>
-
           <div class="col-3"></div>
         </div>
       </div>
     </div>
   </section>
-
   <footer class="bg-light py-4 mt-5x3">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-
           <img src="./assets/thedogslogo.svg" alt="Votre Logo" width="40%" class="img-fluid">
         </div>
         <div class="col-md-4">
-
           <h4 class="text-center">Les Petits de Sally</h4>
         </div>
         <div class="col-md-4 text-center">
-
           <p>Tous droits réservés © 2024</p>
         </div>
       </div>
@@ -237,5 +224,4 @@
   </footer>
   <script type="text/javascript" src="./src/js/mail.js"></script>
 </body>
-
 </html>
