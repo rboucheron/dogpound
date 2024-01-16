@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +18,7 @@
   <link rel="stylesheet" href="./src/css/mind.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
+
 <body class="bg-mauve">
   <header class="border border-bottom-1 border-blue-sky custom-sticky bg-mauve z-3 top-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -177,6 +179,17 @@
         <img src="./assets/07cee3c5-2c3b-4fc0-89c7-31b061c7482a.JPG" class="rounded cover" alt="Chiot au collier rose et chiot au collier noir dormant l'un sur l'autre." height="80%" width="100%">
       </div>
     </div>
+    <div class="row ">
+      <div class="col-sm-3 mt-2">
+        <img src="./assets/3fdd1fbc-9692-4645-accf-c9a4371b11f6.JPG" class="rounded cover" alt="Le chiot blanc, au collier gris, est assis. Derrière lui, le chiot noir, au collier jaune, dort." height="80%" width="100%">
+      </div>
+      <div class="col-sm-6 mt-2">
+        <img src="./assets/b23f6c85-eee2-4acb-abcd-a1a9f5cb2ca3.JPG" class="rounded cover" alt="Un chiot portant un collier blanc et un autre avec un collier vert dorment l'un sur l'autre." height="80%" width="100%">
+      </div>
+      <div class="col-sm-3 mt-2">
+        <img src="./assets/e8060734-0e4b-4e55-9e73-32b5ff58a37f.JPG" class="rounded cover" alt="Un chiot portant un collier blanc et un autre avec un collier vert dorment l'un sur l'autre." height="80%" width="100%">
+      </div>
+    </div>
   </section>
   <section id="Contact">
     <div class="container mt-5x3">
@@ -200,7 +213,7 @@
               <label for="exampleInputEmail1" class="form-label">Votre message</label>
               <textarea class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="message" required="required"></textarea>
             </div>
-            <button type="submit" value="Send" class="btn bg-blue color-mauve" >Envoyer</button>
+            <button type="submit" value="Send" class="btn bg-blue color-mauve">Envoyer</button>
           </form>
           <div class="col-3"></div>
         </div>
@@ -224,4 +237,5 @@
   </footer>
   <script type="text/javascript" src="./src/js/mail.js"></script>
 </body>
+
 </html>
