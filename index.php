@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -18,6 +16,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./src/css/mind.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </head>
 
 <body class="bg-mauve">
@@ -52,6 +52,7 @@
     </nav>
 
   </header>
+  <div id="modal"></div>
 
   <section class="container mt-5x2 mb-5x2 mb-5x3 mb-2" id="Accueil">
     <div class="row">
@@ -189,28 +190,25 @@
       <div class="row">
         <h2 class="mt-sm-5 text-center color-blue-sky w-100 display-4 text-Alata">Nous Contacter</h2>
       </div>
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
 
-          <form action="" method="post">
-            <div class="mt-5 mb-3">
-              <label for="exampleInputEmail1" class="form-label">Nom</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nom" required="required">
-            </div>
+          <form action="" method="post" id="contact-form">
+            <input type="hidden" name="contact_number">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Prénom</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="prenom" required="required">
+              <label for="exampleInputEmail1" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="user_name" required="required">
             </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required="required">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="user_email" required="required">
             </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Votre message</label>
-              <textarea type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="content" required="required"></textarea>
+              <textarea class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="message" required="required"></textarea>
             </div>
-            <button type="submit" class="btn bg-blue color-mauve">Envoyer</button>
+            <button type="submit" value="Send" class="btn bg-blue color-mauve">Envoyer</button>
           </form>
 
           <div class="col-3"></div>
@@ -237,7 +235,7 @@
       </div>
     </div>
   </footer>
-
+  <script type="text/javascript" src="./src/js/mail.js"></script>
 </body>
 
 </html>

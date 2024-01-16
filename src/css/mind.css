@@ -144,4 +144,6 @@ html {
     top: 0; 
     z-index: 1000;
  }
- 
+ .montre{
+    display: block!important;
+}
