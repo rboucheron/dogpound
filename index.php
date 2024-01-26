@@ -94,21 +94,23 @@
       </div>
       <div class="d-flex justify-content-center col-12 col-sm-4 sm-m-2">
         <div class="card " style="width: 100%;">
-          <img src="./assets/coliergris.jpg" class="card-img-top" alt="Petite chienne au collier blanc sur une nappe rouge." style="height: 265px; object-fit: cover;">
+          <img src="./assets/c1cccc9d-a202-4d70-8b61-440a3118400d.JPG" class="card-img-top" alt="Petite chienne au collier blanc sur une nappe rouge." style="height: 265px; object-fit: cover;">
           <div class="card-body">
             <h3 class="card-title text-Alata color-accent">Collier Gris</h3>
             <p class="card-text">Une femelle de couleur Sable, agée de 10 jours sur la photo</p>
 
           </div>
+          <div class="reserve">En cours d'adoption</div>
         </div>
       </div>
       <div class="d-flex justify-content-center  col-12 col-sm-4 sm-m-2">
         <div class="card " style="width: 100%;">
-          <img src="./assets/coliervert.jpg" class="card-img-top" alt="Petite chienne au collier vert sur une nappe rouge." style="height: 265px; object-fit: cover;">
+          <img src="./assets/37e7da92-8730-406e-8d41-7e98c01f6c54.JPG" class="card-img-top" alt="Petite chienne au collier vert sur une nappe rouge." style="height: 265px; object-fit: cover;">
           <div class="card-body">
             <h3 class="card-title text-Alata color-accent">Collier Vert</h3>
             <p class="card-text">Une femelle de couleur Sable, agée de 10 jours sur la photo</p>
           </div>
+      
         </div>
       </div>
       <div class="col-2">
@@ -119,7 +121,7 @@
       </div>
       <div class="d-flex justify-content-center col-12 col-sm-4 sm-m-2">
         <div class="card " style="width: 100%;">
-          <img src="./assets/colierrose.jpg" class="card-img-top" alt="Petite chienne au collier rose sur une nappe rouge" style="height: 265px; object-fit: cover;">
+          <img src="./assets/4f1b3fb2-9b3f-47e4-9feb-ca7733001efb 2.JPG" class="card-img-top" alt="Petite chienne au collier rose sur une nappe rouge" style="height: 265px; object-fit: cover;">
           <div class="card-body">
             <h3 class="card-title text-Alata color-accent">Collier Rose</h3>
             <p class="card-text">Une femelle de couleur Sable, agée de 10 jours sur la photo</p>
@@ -129,7 +131,7 @@
       </div>
       <div class="d-flex justify-content-center col-12 col-sm-4 sm-m-2">
         <div class="card " style="width: 100%;">
-          <img src="./assets/colierjaune.jpg" class="card-img-top" alt="Petit chient au collier jaune qui se repose sur une nappe rouge." style="height: 265px; object-fit: cover;">
+          <img src="./assets/35ea0e0f-e74c-44fa-acc6-8f154b354f17.JPG" class="card-img-top" alt="Petit chient au collier jaune qui se repose sur une nappe rouge." style="height: 265px; object-fit: cover;">
           <div class="card-body">
             <h3 class="card-title text-Alata color-accent">Collier Jaune</h3>
             <p class="card-text">Un Mâle de couleur noir et sable, agé de 10 jours sur la photo </p>
